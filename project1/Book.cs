@@ -3,9 +3,9 @@ namespace project1
 {
     internal class Book
     {
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public int Year { get; set; }
+        public string Title;
+        public string Author;
+        public int Year;
 
         public Book(string title, string author, int year)
         {
